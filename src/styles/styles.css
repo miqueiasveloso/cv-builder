@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    height: 100vh;
+    background-color: rgb(172, 165, 165);
+    background-image: url("https://img.freepik.com/vetores-gratis/escritorio-plano-de-fundo-para-videoconferencia_23-2148641674.jpg?w=2000");
+    background-size: 100%;
+}
+
+.cv-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    margin: 10px auto;
+    box-shadow: 2px 2px 5px rgb(0 0 0 / 50%);
+    width: 20%;
+    background: #f8d775;
+    text-align: center;
+}
+
+input[type=submit] {
+display: inline-block;
+outline: 0;
+position: relative;
+top: 30px;
+cursor: pointer;
+text-align: center;
+border: 0;
+padding: 7px 16px;
+min-height: 36px;
+min-width: 36px;
+color: #ffffff;
+background: #008060;
+border-radius: 4px;
+font-weight: 500;
+font-size: 14px;
+box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px, rgba(0, 0, 0, 0.2) 0px -1px 0px 0px inset;
+}
+
+.swal-overlay--show-modal .swal-modal{
+    text-align: center;
+}
